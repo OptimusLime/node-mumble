@@ -14,10 +14,10 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "protobufjs": "^5.0.0",
-    "node-opus": "^0.3.3",
     "celt": "^0.1.11",
-    "jitterbuffer": "^0.1.12"
+    "jitterbuffer": "git+https://github.com/funmaker/node12-jitterbuffer.git",
+    "node-opus": "^0.3.3",
+    "protobufjs": "^5.0.0"
   },
   "devDependencies": {
     "chai": "^3.2.0",
